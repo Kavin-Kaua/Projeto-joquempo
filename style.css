@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#rock {
+    background-color: #700f0f;
+}
+
+#paper {
+    background-color: #3ff048;
+}
+
+#scissors {
+    background-color: #514592;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.your-score span {
+    color: rgb(57, 57, 197);
+}
+
+.machine-score span {
+    color: rgb(197, 15, 15);
+}
+
+.score-draw span {
+    color: #2d990c;
+}
